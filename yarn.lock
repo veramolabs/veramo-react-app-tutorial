@@ -2647,38 +2647,46 @@
     "@typescript-eslint/types" "5.41.0"
     eslint-visitor-keys "^3.3.0"
 
-"@veramo/core@4.2.1-unstable.9", "@veramo/core@^4.2.1-unstable.9+ba3e5435":
-  version "4.2.1-unstable.9"
-  resolved "https://registry.yarnpkg.com/@veramo/core/-/core-4.2.1-unstable.9.tgz#493b0e6c8dbba77330c6a6117c60e7567f2976df"
-  integrity sha512-aRyo5CcWvZStLLtDU2zroupYQdd6ZxAlBvJxyrQBmk7vw5b3sZSqaFflJPxPvWvt7IOz2a/AnQdba66Id5v43Q==
+"@veramo/core-types@^5.1.2":
+  version "5.1.2"
+  resolved "https://registry.yarnpkg.com/@veramo/core-types/-/core-types-5.1.2.tgz#c8e6771780ba8b32fc1a582ed012def807a3117c"
+  integrity sha512-IVmbcn9yBE8v/x29nGvScCT9sIKu/iYJ8+dqN3jIVL2t//HRvNhrHsxw83Wb6DGqr46r0ebM+kEnPfZAAxdk/w==
   dependencies:
     credential-status "^2.0.5"
     debug "^4.3.3"
     did-jwt-vc "^3.1.0"
     did-resolver "^4.0.1"
+
+"@veramo/core@^5.1.2":
+  version "5.1.2"
+  resolved "https://registry.yarnpkg.com/@veramo/core/-/core-5.1.2.tgz#eebbe84c10c226fa519d329eaf6dd104713b8744"
+  integrity sha512-0ees7TekZ4h7dXPsaqu+6ZM5rc4BAqoW/zfiAzM0mAD2anaTyygbKqfjUAMVijdOv6/tyL8Yv3ez74zXYgT+ew==
+  dependencies:
+    "@veramo/core-types" "^5.1.2"
+    debug "^4.3.4"
     events "^3.2.0"
     z-schema "^5.0.5"
 
-"@veramo/did-resolver@4.2.1-unstable.9":
-  version "4.2.1-unstable.9"
-  resolved "https://registry.yarnpkg.com/@veramo/did-resolver/-/did-resolver-4.2.1-unstable.9.tgz#41dc494dc0fd2a703039f8dd3409a3bb693efc68"
-  integrity sha512-/aja4zh6Qmjju75uUWH9s5amMRihvDZA7y73p87j4Po1mcCymAPvV3KKxnsQlM2DKRzbBuND4LmlNWIg/3+cHg==
+"@veramo/did-resolver@^5.1.2":
+  version "5.1.2"
+  resolved "https://registry.yarnpkg.com/@veramo/did-resolver/-/did-resolver-5.1.2.tgz#913a95a46c80779fb13aebccc4d20d2e694acfa0"
+  integrity sha512-edvF4E6X3XwVUH/eeIsZmYJGfHVL0fFPzdl9lf0jrCiticik76QYiUWLXj67q8E43Lv16mYOIe3S3qQ3/vmsKg==
   dependencies:
-    "@veramo/core" "^4.2.1-unstable.9+ba3e5435"
-    "@veramo/utils" "^4.2.1-unstable.9+ba3e5435"
+    "@veramo/core-types" "^5.1.2"
+    "@veramo/utils" "^5.1.2"
     cross-fetch "^3.1.4"
     debug "^4.3.3"
     did-resolver "^4.0.1"
 
-"@veramo/utils@^4.2.1-unstable.9+ba3e5435":
-  version "4.2.1-unstable.9"
-  resolved "https://registry.yarnpkg.com/@veramo/utils/-/utils-4.2.1-unstable.9.tgz#b75267feaf010af83deb5976a2ffc34594cd39c8"
-  integrity sha512-YjB0sYzKlBWdrgNwOTPLE7OaEqhl15MkBDGOzpz3oiZjGHu3vrAnWyL9Ox9+Ipv332vxeTCX4JB+3ee+rscgvg==
+"@veramo/utils@^5.1.2":
+  version "5.1.2"
+  resolved "https://registry.yarnpkg.com/@veramo/utils/-/utils-5.1.2.tgz#c5f45955a43f97b4b68207290664b6bbde902181"
+  integrity sha512-1hcQzoTQ8q5LWfT1GzCA7wDyX95Pmz2xSVmV5P5otbAtrWk9GXn01snbaDlW+vz/a/iWKKcLlZbkRf5uLpHdnQ==
   dependencies:
     "@ethersproject/signing-key" "^5.7.0"
     "@ethersproject/transactions" "^5.7.0"
     "@stablelib/ed25519" "^1.0.3"
-    "@veramo/core" "^4.2.1-unstable.9+ba3e5435"
+    "@veramo/core-types" "^5.1.2"
     blakejs "^1.1.1"
     credential-status "^2.0.5"
     cross-fetch "^3.1.5"
