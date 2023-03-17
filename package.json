@@ -2,7 +2,9 @@
   "name": "veramo-react-app-tutorial",
   "version": "0.1.0",
   "private": true,
-  "dependencies": {
+  "dependencies": {    
+    "@babel/plugin-syntax-import-assertions": "^7.20.0",
+    "@craco/craco": "^6.4.5",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -10,8 +12,8 @@
     "@types/node": "^16.18.2",
     "@types/react": "^18.0.24",
     "@types/react-dom": "^18.0.8",
-    "@veramo/core": "^4.0.0",
-    "@veramo/did-resolver": "^4.0.2",
+    "@veramo/core": "^5.1.2",
+    "@veramo/did-resolver": "^5.1.2",
     "did-resolver": "^4.0.1",
     "ethr-did-resolver": "^7.0.2",
     "react": "^18.2.0",
@@ -22,9 +24,9 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
