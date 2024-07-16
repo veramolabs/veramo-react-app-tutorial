@@ -8,7 +8,7 @@ function App() {
 
   const resolve = async () => {
     const doc = await agent.resolveDid({
-      didUrl: 'did:ethr:goerli:0x6acf3bb1ef0ee84559de2bc2bd9d91532062a730',
+      didUrl: 'did:ethr:sepolia:0x02bd224258f3b0ae8fa5388342783d9697dac9133eb476c7946eeed9ac7b864ce1',
     })
 
     setDidDoc(doc)

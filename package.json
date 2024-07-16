@@ -2,7 +2,7 @@
   "name": "veramo-react-app-tutorial",
   "version": "0.1.0",
   "private": true,
-  "dependencies": {    
+  "dependencies": {
     "@babel/plugin-syntax-import-assertions": "^7.20.0",
     "@craco/craco": "^6.4.5",
     "@testing-library/jest-dom": "^5.16.5",
@@ -15,7 +15,7 @@
     "@veramo/core": "^5.1.2",
     "@veramo/did-resolver": "^5.1.2",
     "did-resolver": "^4.0.1",
-    "ethr-did-resolver": "^7.0.2",
+    "ethr-did-resolver": "^10.1.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
@@ -46,5 +46,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
 }
